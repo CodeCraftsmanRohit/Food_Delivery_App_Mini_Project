@@ -45,3 +45,16 @@ db.delete().where(...and(...))	->Deletes only if both user and recipe match
 parseInt()	->Ensures recipeId is treated as a number
 
 5-backend deployed on https://food-delivery-backend-9jee.onrender.com/
+
+
+6- react basics
+
+| Component          | Purpose                                       |
+| ------------------ | --------------------------------------------- |
+| `SafeAreaView`     | Keeps UI inside visible screen area           |
+| `Stack`            | Enables navigation between screens            |
+| `TextInput`        | Lets user type something (e.g. email)         |
+| `Image`            | Displays a picture                            |
+| `TouchableOpacity` | Makes elements tappable                       |
+| `Link`             | Navigates to another screen using Expo Router |
+| `StyleSheet`       | Adds reusable styles to your components       |
