@@ -5,10 +5,11 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function RootLayout() {
   return (
-    <ClerkProvider tokenCache={tokenCache}>
+    <ClerkProvider
+    tokenCache={tokenCache}>
       <SafeAreaView style={{ flex: 1 }}>
         <Slot />
       </SafeAreaView>
     </ClerkProvider>
   );
-}
+};
