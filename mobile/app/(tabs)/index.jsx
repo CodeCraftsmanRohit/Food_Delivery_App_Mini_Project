@@ -23,7 +23,7 @@ export default function Index() {
         <Text>Click me</Text>
       </TouchableOpacity>
 
-<Link href={"/about"}>Visit About Screen</Link>
+{/* <Link href={"/about"}>Visit About Screen</Link> */}
 
     </View>
   );
